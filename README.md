@@ -15,3 +15,12 @@ Writes the C string pointed by format to the stadard output **<stdout>**. If for
 | c | Character | A
 | s | String of characters |
 | % | A% followed by another % character will write a single % to the stream| % i and d | Signed decimal integer | 98
+| b | Unsigned binary | 10101
+| u | Unsigned decimal integer | 98
+| o | Unsigned octal | 5523
+| x | Unsigned hexadecimal integer (lowercase) | 36264eb
+| X | Unsigned hexadecimal integer (uppercase) | 36264EB
+| r | Reversed string | gnirts |
+| R | Rot13 string | cevags
+##### Return Value.
+On **Success**, the **total number** of characters written is returned.
