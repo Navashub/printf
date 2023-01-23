@@ -52,4 +52,5 @@ int print_string(va_list s);/*writes the character c to stdout */
 int print_int(va_list i);/*function that prints an integer */
 int print_dec(va_list d);/* function that prints an decimal*/
 ````
-
+## Collaborator/Partner
+- [Persie-O](https://github.com/Persie-O)
